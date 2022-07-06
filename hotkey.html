@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Do you want shortcuts for launch faster your favorite program or website? Look here how to use this tool."
+    />
+    <title>AutoHotKey | HenrryDev's Blog</title>
+    <link href="css/styles.css" rel="preload" as="style" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="header__title"><h1>HenrryDev's Blog</h1></a>
+    </header>
+    <nav class="nav">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="icon icon-tabler icon-tabler-menu-2 bar-icon"
+        width="44"
+        height="44"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="#ffffff"
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+        <line x1="4" y1="6" x2="20" y2="6" />
+        <line x1="4" y1="12" x2="20" y2="12" />
+        <line x1="4" y1="18" x2="20" y2="18" />
+      </svg>
+      <div class="navbar">
+        <a href="os.html" class="bar__link">OS</a>
+        <a href="coding.html" class="bar__link">Coding</a>
+        <a href="tools.html" class="bar__link">Tools</a>
+        <a href="various.html" class="bar__link">Various</a>
+        <a href="contact.html" class="bar__link">Contact</a>
+      </div>
+    </nav>
+    <div class="cover">
+      <div class="cover__content">
+        <h2 class="cover__title">
+          AutoHotKey: Make your own shortcuts in Windows
+        </h2>
+        <div class="cover__svg">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-keyboard"
+            width="44"
+            height="44"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#eeeeee"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <rect x="2" y="6" width="20" height="12" rx="2" />
+            <line x1="6" y1="10" x2="6" y2="10" />
+            <line x1="10" y1="10" x2="10" y2="10" />
+            <line x1="14" y1="10" x2="14" y2="10" />
+            <line x1="18" y1="10" x2="18" y2="10" />
+            <line x1="6" y1="14" x2="6" y2="14.01" />
+            <line x1="18" y1="14" x2="18" y2="14.01" />
+            <line x1="10" y1="14" x2="14" y2="14" />
+          </svg>
+        </div>
+        <p class="cover__text">
+          Do you want shortcuts for launch faster your favorite program or
+          website? Look here how to use this tool.
+        </p>
+      </div>
+    </div>
+    <div class="container principal-content">
+      <main class="main">
+        <h2 class="main__title">What is AutoHotKey?</h2>
+        <img
+          src="images/autohotkey.jpg?as=webp"
+          alt="AutoHotKey website"
+          class="main__img"
+        />
+        <p class="main__text">
+          AutoHotKey is a program for Windows that mades easier to make
+          shortcuts for launch programs and search websites, this program has a
+          file type that they calls 'AutoHotKey Script', in this file you put on
+          it an specific symbols and commands, below I teach you how to do that
+          with some steps for did that.
+        </p>
+        <h3 class="main__subtitle">
+          Step 1: Go to AutoHotKey Website and install the program
+        </h3>
+        <p class="main__text">
+          Now, in the website, put your cursor on 'Download' button and click on
+          it. And you will see some options, that you can see in the next image.
+        </p>
+        <img
+          src="images/autohotkey-download.jpg?as=webp"
+          alt="Click on Download"
+          class="main__img"
+        />
+        <p class="main__text">
+          Click on 'Download Current Version', and the download starts. When the
+          download ends, go to the File Explorer and search the executable
+          downloaded. Then, select them and click the right button of the mouse.
+          After, run the executable as administrator for install the program.
+          When end the install process, you will see an window of AutoHotkey
+          like the next image.
+        </p>
+        <p class="main__text">
+          Only you have to close that window, and go to your desktop, or any
+          directory in the File Explorer, if you are questioning, why? This is
+          for make an script of the program, that the creators named like
+          "AutoHotKey Script"
+        </p>
+        <img
+          src="images/autohotkey-gowto.jpg?as=webp"
+          alt="AutoHotKey How To Use Window"
+          class="main__img"
+        />
+        <h3 class="main__subtitle">Step 2: Make an script</h3>
+        <p class="main__text">
+          Now, in the directory that you want to make the script, right click in
+          any white space, go to New (in spanish, 'Nuevo'), and then,
+          'AutoHotKey Script', then, give it a name. When the script is created,
+          again, right click on this file, and click on 'Edit script' option,
+          this open the notepad or your favorite code editor. For make the
+          script, has an specific syntax. You can see this in the next image,
+          that is my personal script.
+        </p>
+        <img
+          src="images/autohotkey-myscript.jpg?as=webp"
+          alt="Edit an script"
+          class="main__img crop"
+        />
+        <p class="main__text">
+          As can you see, the file contains many '#' and '!', why? This has a
+          value, each key has a value, and each value is named like command.
+        </p>
+        <ul class="main__text--list">
+          <li># = Windows / Meta key</li>
+          <li>! = Alt key</li>
+          <li>^ = Control key</li>
+          <li>+ = Shift key</li>
+        </ul>
+        <p class="main__text">
+          For create shortcuts, you have to write the commands with the next
+          syntax: <code>#!(any key of the abecedary)::</code>. And then, put the
+          action what you want.
+        </p>
+        <ul class="main__text--list">
+          <li>
+            For Show MessageBox, write: <code>MsgBox, 'The message'</code>
+          </li>
+          <li>
+            For Launch programs, write: <code>Run, "Path of the program"</code>
+          </li>
+        </ul>
+        <p class="main__text">
+          Keep in mind that if the program directory has any white space, you
+          have to quote the directory.
+        </p>
+        <h3 class="main__subtitle">Step 3: Run the script</h3>
+        <p class="main__text">
+          For run, only save the changes and double click on the file, and that
+          is All! For go the AutoHotkey website, click on the next link.
+        </p>
+        <a href="https://www.autohotkey.com" class="here">AutoHotKey website</a>
+        <p class="date">Writed the April 27, 2022</p>
+      </main>
+      <aside class="side-bar">
+        <h2 class="main__title">Entries</h2>
+        <ul class="entries">
+          <li class="entry">
+            <h3 class="entry__title">Autodraw</h3>
+            <p class="entry__text">Make better draws with this tool</p>
+            <a href="autodraw.html" class="entry__link">Go to the page</a>
+          </li>
+          <li class="entry">
+            <h3 class="entry__title">My VS Code Setup</h3>
+            <p class="entry__text">
+              Programming using font ligatures it's now possible using Fira Code
+              iScript
+            </p>
+            <a href="vscsetup.html" class="entry__link">Go to the page</a>
+          </li>
+          <li class="entry">
+            <h3 class="entry__title">DevChallenges.io</h3>
+            <p class="entry__text">
+              Cool website for make better practices in Front-End design.
+            </p>
+            <a href="devio.html" class="entry__link">Go to the page</a>
+          </li>
+          <li class="entry">
+            <h3 class="entry__title">Linux Distros</h3>
+            <p class="entry__text">
+              Do you know that Linux has a lot of Distros? Here I tell many of
+              them.
+            </p>
+            <a href="distos.html" class="entry__link">Go to the page</a>
+          </li>
+          <li class="entry">
+            <h3 class="entry__title">Tools for Front-End Development</h3>
+            <p class="entry__text">
+              Are you a Front-End Dev.? Look here some tools for develop webs
+              more faster and easer!
+            </p>
+            <a href="frontend.html" class="entry__link">Go to the page</a>
+          </li>
+          <li class="entry">
+            <h3 class="entry__title">Where I can find Udemy coupons?</h3>
+            <p class="entry__text">
+              Udemy has a lot of course, many of them has a coupon for a few
+              hours or days, look here where you can find them.
+            </p>
+            <a href="udemy.html" class="entry__link">Go to the page</a>
+          </li>
+        </ul>
+      </aside>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

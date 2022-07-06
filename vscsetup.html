@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="What VSC theme I use? Plugins? Tools? Here you read what I use."
+    />
+    <title>My VS Code Setup | HenrryDev's Blog</title>
+    <link href="css/styles.css" rel="preload" as="style" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="header__title"><h1>HenrryDev's Blog</h1></a>
+    </header>
+    <nav class="nav">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="icon icon-tabler icon-tabler-menu-2 bar-icon"
+        width="44"
+        height="44"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="#ffffff"
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+        <line x1="4" y1="6" x2="20" y2="6" />
+        <line x1="4" y1="12" x2="20" y2="12" />
+        <line x1="4" y1="18" x2="20" y2="18" />
+      </svg>
+      <div class="navbar">
+        <a href="os.html" class="bar__link">OS</a>
+        <a href="coding.html" class="bar__link">Coding</a>
+        <a href="tools.html" class="bar__link">Tools</a>
+        <a href="various.html" class="bar__link">Various</a>
+        <a href="contact.html" class="bar__link">Contact</a>
+      </div>
+    </nav>
+    <div class="cover">
+      <div class="cover__content">
+        <h2 class="cover__title">My VS Code Setup</h2>
+        <div class="cover__svg">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-brand-visual-studio"
+            width="44"
+            height="44"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#2c3e50"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M4 8l2 -1l10 13l4 -2v-12l-4 -2l-10 13l-2 -1z" />
+          </svg>
+        </div>
+        <p class="cover__text">
+          What VSC theme I use? Plugins? Tools? Here you read what I use.
+        </p>
+      </div>
+    </div>
+    <div class="container principal-content">
+      <main class="main">
+        <h2 class="main__title">My Personal Setup of Visual Studio Code</h2>
+        <img
+          src="images/vsetup.webp"
+          alt="Visual Studio Code"
+          class="main__img"
+        />
+        <p class="main__text">
+          I use a 'mixed' font called Fira Code iScript, in fact, it is the
+          fusion of two fonts, Fira Code, and Script12. The theme, is 'Winter Is
+          Comming', but, you must make sure that you have the italic font
+          enabled, otherwise, you will not be able to see the two font styles in
+          the editor. Although it goes without saying, you can choose any theme,
+          you don't necessarily have to use the one I have.
+        </p>
+        <h3 class="main__subtitle">How to download this font?</h3>
+        <p class="main__text">
+          For download the font, go to
+          <a
+            href="https://github.com/kencrocken/FiraCodeiScript"
+            class="here"
+            target="_blank"
+            >Fira Code iScript github page</a
+          >
+          and click on green button 'Code', then if you use git, clone the
+          repository, but if not, download the repo packaged into a zip file.
+          When download finish, search <code>otf</code> or
+          <code>ttf</code> files for install they, it's depends in the OS do you
+          use. When you have the font installed. Go to your editor, and go to
+          the configutarion. In the field <code>Editor: Font Family</code>, put
+          the next text:
+        </p>
+        <code class="bg">'Fira Code iScript', monospace</code>
+        <p class="main__text">
+          Great! You have Fira Code on your VS Code, but, you have to enable
+          font ligatures, for that, go again to configutarion, and search 'Font
+          Ligatures', you will see an section like this:
+        </p>
+        <img
+          src="images/vscodelig.webp"
+          alt="Font Ligatures config"
+          class="main__img"
+        />
+        <p class="main__text">
+          Click on settings.json and don't worry, the code you see is your
+          personal Visual Studio Code settings, if the option
+          'editor.fontLigatures' has a value of false, set its value to true, if
+          it has the latter, don't change anything and restart the code editor.
+        </p>
+        <p class="main__text">
+          Restart the editor and you will see your new beautiful font!. But, if
+          you don't see the font yet, install a theme in which the title don't
+          contain 'No italics'.
+        </p>
+        <h3 class="main__subtitle">What Plugins I use?</h3>
+        <p class="main__text">
+          For web development (No Wordpress, soon I will make an entry talking
+          about this CMS), I use the next plugins:
+        </p>
+        <p>
+          <span class="alert">NOTE:</span> Below is the plugin title, for search
+          how works, search yourself about they.
+        </p>
+        <ul class="main__text--list">
+          <li>Auto Close Tag</li>
+          <li>Auto Complete Tag</li>
+          <li>Auto Rename Tag</li>
+          <li>Code Spell Checker</li>
+          <li>Color Highlight</li>
+          <li>Color Info</li>
+          <li>Error Lens</li>
+          <li>ESLINT</li>
+          <li>HTML Class Suggestions</li>
+          <li>IntelliSense for CSS class name</li>
+          <li>Live Server</li>
+          <li>MinifyAll</li>
+          <li>Prettier</li>
+          <li>SCSS Everywhere</li>
+          <li>SCSS IntelliSense</li>
+        </ul>
+        <h3 class="main__subtitle">What Tools I used?</h3>
+        <p class="main__text">
+          Well, Parcel and Gulp are the tools what I used, my personal opinion,
+          Parcel is 'hard' to configure, but gulp was easy, but with many
+          vulnerabilities.
+        </p>
+      </main>
+      <aside class="side-bar">
+        <h2 class="main__title">Entries</h2>
+        <ul class="entries">
+          <li class="entry">
+            <h3 class="entry__title">Autodraw</h3>
+            <p class="entry__text">Make better draws with this tool</p>
+            <a href="autodraw.html" class="entry__link">Go to the page</a>
+          </li>
+          <li class="entry">
+            <h3 class="entry__title">AutoHotKey: make your own shortcuts</h3>
+            <p class="entry__text">
+              Make your own shortcuts usin this program for Windows.
+            </p>
+            <a href="hotkey.html" class="entry__link">Go to the page</a>
+          </li>
+          <li class="entry">
+            <h3 class="entry__title">DevChallenges.io</h3>
+            <p class="entry__text">
+              Cool website for make better practices in Front-End design.
+            </p>
+            <a href="devio.html" class="entry__link">Go to the page</a>
+          </li>
+          <li class="entry">
+            <h3 class="entry__title">Linux Distros</h3>
+            <p class="entry__text">
+              Do you know that Linux has a lot of Distros? Here I tell many of
+              them.
+            </p>
+            <a href="distos.html" class="entry__link">Go to the page</a>
+          </li>
+          <li class="entry">
+            <h3 class="entry__title">Tools for Front-End Development</h3>
+            <p class="entry__text">
+              Are you a Front-End Dev.? Look here some tools for develop webs
+              more faster and easer!
+            </p>
+            <a href="frontend.html" class="entry__link">Go to the page</a>
+          </li>
+          <li class="entry">
+            <h3 class="entry__title">Where I can find Udemy coupons?</h3>
+            <p class="entry__text">
+              Udemy has a lot of course, many of them has a coupon for a few
+              hours or days, look here where you can find them.
+            </p>
+            <a href="udemy.html" class="entry__link">Go to the page</a>
+          </li>
+        </ul>
+      </aside>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
